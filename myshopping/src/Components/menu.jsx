@@ -12,7 +12,7 @@ export default class menu extends React.Component {
     componentWillMount() {
         this.state.menu = [
             {
-
+				name:''
             }
         ]
     }
@@ -362,14 +362,7 @@ export default class menu extends React.Component {
 							<ul class="clearfix">
 								<li><a href="elements-system-elements.php">SYSTEM ELEMENTS</a></li>
 								<li><a href="elements-tabs.php">TABS</a></li>
-								<li><a href="elements-buttons.php">BUTTONS</a></li>
-								<li><a href="elements-accordions.php">ACCORDIONS</a></li>
-								<li><a href="elements-contact-form.php">CONTACT FORM</a></li>
-								<li><a href="elements-pricing-tables.php">PRICING TABLES</a></li>
-								<li><a href="elements-vertical-tabs.php">VERTICAL TABS</a></li>
-								<li><a href="elements-miscellaneous.php">MISCELLANEOUS</a></li>
-								<li><a href="elements-counter-numbers.php">NUMBERS COUNTING</a></li>
-								<li><a href="elements-world-map-offices.php">WORLD MAP OFFICES</a></li>
+								
 								<li><a href="elements-parallax-section.php">PARALLAX SECTION + CAROUSEL</a></li>
 							</ul>
 						</li>
